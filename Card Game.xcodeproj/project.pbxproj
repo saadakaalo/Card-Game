@@ -14,6 +14,8 @@
 		217BB30D203358E000F64320 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 217BB30B203358E000F64320 /* LaunchScreen.storyboard */; };
 		217BB310203358E000F64320 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 217BB30F203358E000F64320 /* main.m */; };
 		217BB3182033592300F64320 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 217BB3172033592300F64320 /* Card.m */; };
+		217BB31B203361AC00F64320 /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = 217BB31A203361AC00F64320 /* Deck.m */; };
+		217BB31E20336A6D00F64320 /* PlayingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 217BB31D20336A6D00F64320 /* PlayingCard.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,10 @@
 		217BB30F203358E000F64320 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		217BB3162033592300F64320 /* Card.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
 		217BB3172033592300F64320 /* Card.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
+		217BB319203361AC00F64320 /* Deck.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Deck.h; sourceTree = "<group>"; };
+		217BB31A203361AC00F64320 /* Deck.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Deck.m; sourceTree = "<group>"; };
+		217BB31C20336A6D00F64320 /* PlayingCard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlayingCard.h; sourceTree = "<group>"; };
+		217BB31D20336A6D00F64320 /* PlayingCard.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayingCard.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +73,10 @@
 				217BB304203358E000F64320 /* ViewController.m */,
 				217BB3162033592300F64320 /* Card.h */,
 				217BB3172033592300F64320 /* Card.m */,
+				217BB319203361AC00F64320 /* Deck.h */,
+				217BB31A203361AC00F64320 /* Deck.m */,
+				217BB31C20336A6D00F64320 /* PlayingCard.h */,
+				217BB31D20336A6D00F64320 /* PlayingCard.m */,
 				217BB306203358E000F64320 /* Main.storyboard */,
 				217BB309203358E000F64320 /* Assets.xcassets */,
 				217BB30B203358E000F64320 /* LaunchScreen.storyboard */,
@@ -147,6 +157,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				217BB31E20336A6D00F64320 /* PlayingCard.m in Sources */,
+				217BB31B203361AC00F64320 /* Deck.m in Sources */,
 				217BB305203358E000F64320 /* ViewController.m in Sources */,
 				217BB310203358E000F64320 /* main.m in Sources */,
 				217BB302203358E000F64320 /* AppDelegate.m in Sources */,
